@@ -1,7 +1,5 @@
 import argparse
 import requests
-import json
-
 
 class StreetMap(object):
 
