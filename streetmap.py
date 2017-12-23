@@ -4,7 +4,7 @@ import requests
 class StreetMap(object):
 
     def __init__(self, location=None, name='', size=None):
-        self.API = "YOUR_APPI_KEY_HERE"
+        self.API = "YOUR_API_KEY_HERE"
         self.URI = 'https://maps.googleapis.com/maps/api/streetview'
         self.parameters = {'size': size, 'location': location,
                            'key': self.API, 'pitch': None, 'heading': None,
